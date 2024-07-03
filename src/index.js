@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Heder from './components/Heder'
+import { Common } from './components/Common';
+import Section from './components/Section';
+import Card from './components/Card';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Heder />
+    <Common />
+    <Section />
+    <Card />
+    <Footer />
   </React.StrictMode>
 );
 
